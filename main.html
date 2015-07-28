@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>MVC Vote</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/EventManager.js"></script>
+    <script type="text/javascript" src="js/Manager.js"></script>
+    <script type="text/javascript" src="js/MVC.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="main">
+    <h1>
+        MVC Vote
+    </h1>
+    <h4>
+        (Open the console, silly)
+    </h4>
+    <div>
+        <h2>Vote</h2>
+        <div>
+            <span>
+                Yes votes:
+            </span>
+            <span id="results_yes"></span>
+        </div>
+        <div>
+            <a href="javascript:void(0);" id="anchor_yes">Vote yes</a>
+        </div>
+        <div class="pad-top">
+            <span>
+                No votes:
+            </span>
+            <span id="results_no"></span>
+        </div>
+        <div>
+            <a href="javascript:void(0);" id="anchor_no">Vote no</a>
+        </div>
+    </div>
+    <hr />
+    <div class="pad-top">
+        <div><a href="javascript:void(0);" id="anchor_listeners">Stop listening!!</a></div>
+        <div><a href="javascript:void(0);" id="anchor_publishers">Stop publishing!!</a></div>
+        <div><a href="javascript:void(0);" id="anchor_stop">Stop with this madness!!</a></div>
+        <div><a href="javascript:void(0);" id="anchor_stop_yes">Silence the yes party</a></div>
+        <div><a href="javascript:void(0);" id="anchor_stop_no">Silence the no party</a></div>
+    </div>
+</div>
+</body>
+</html>
